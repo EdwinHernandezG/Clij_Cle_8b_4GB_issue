@@ -11,6 +11,7 @@
 //3GB 8-bit | newImage("test", "8-bit white", 2500, 2500, 512); don't work
 //4GB 32-bit| newImage("test", "32-bit white", 1450, 1450, 512); works
 
+newImage("test", "8-bit white", 1500, 1500, 512);
 
 // Init GPU
 run("CLIJ2 Macro Extensions", "cl_device=");
